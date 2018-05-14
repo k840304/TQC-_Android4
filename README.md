@@ -1,2 +1,2 @@
 # TQC-_Android4
-TQC+ 行動裝置進階應用程式設計 (Android)
+行動裝置應用程式設計-專業級(Android 4)
