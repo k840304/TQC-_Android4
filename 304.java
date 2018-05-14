@@ -24,9 +24,9 @@ public class GDD03_SM_Receiver extends BroadcastReceiver
 	String str = "";
 	for(Object pdu : pdus){
 		sms = SmsMessage.createFromPdu((byte[]) pdu);
-		str += "±µ¦¬¨ì¨Ó¦Û:\n";
+		str += "æŽ¥æ”¶åˆ°ä¾†è‡ª:\n";
 		str += sms.getOriginatingAddress().toString() + "\n";
-		str += "------¶Ç¨ÓªºÂ²°T------\n";
+		str += "------å‚³ä¾†çš„ç°¡è¨Š------\n";
 		str += sms.getDisplayMessageBody();
 	}
 	Toast.makeText(context, str, Toast.LENGTH_LONG).show();
